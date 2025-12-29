@@ -1,0 +1,44 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    position: relative;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.left-sidebar {
+    position: relative;
+    width: 35%;
+    height: 100%;
+    float: left;
+}
+
+.background-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.logo-banner {
+    position: absolute;
+    top: 20%;
+    left: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    text-align: center;
+    padding: 15px 0;
+    font-size: 2.5rem;
+    font-weight: bold;
+    display: block;
+}
+
+.logo-icon {
+    width: 50px;
+    vertical-align: middle;
+    margin-right: 10px
+}
