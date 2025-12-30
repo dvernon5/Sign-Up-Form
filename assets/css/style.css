@@ -1,3 +1,7 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -41,4 +45,21 @@ body {
     width: 50px;
     vertical-align: middle;
     margin-right: 10px
+}
+
+.right-content {
+    position: absolute;
+    top: 0;
+    left: 35%;
+    width: 65%;
+    height: 100%;
+    background-color: #f9fafb;
+    padding: 50px 40px 0;
+}
+
+.intro-text {
+    font-size: 1.5rem;
+    max-width: 700px;
+    line-height: 1.4em;
+    margin-bottom: 40px;
 }
