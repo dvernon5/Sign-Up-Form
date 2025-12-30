@@ -123,3 +123,13 @@ button {
 button:hover {
     background-color: #465a38;
 }
+
+.login-prompt p {
+    margin-top: 10px;
+    font-size: 1rem;
+}
+
+.login-prompt a {
+    color: #596d48;
+    text-decoration: none;
+}
